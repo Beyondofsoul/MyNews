@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.input {
+  background-color: #23272f;
+  padding: 10px;
+  color: white;
+}
+.input::placeholder {
+  color: white;
+  font-size: 16px;
+}
+.button {
+  background-color: #23272f;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: orange;
+  transition: 0.3s;
+}
