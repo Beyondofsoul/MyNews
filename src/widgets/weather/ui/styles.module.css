@@ -1,0 +1,11 @@
+.section {
+  display: grid;
+  justify-content: center;
+}
+.history {
+  cursor: pointer;
+}
+.history:hover {
+  color: brown;
+  transform: translate(3px);
+}
