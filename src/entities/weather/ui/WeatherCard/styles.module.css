@@ -1,0 +1,15 @@
+.card {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 2;
+}
+.city {
+  display: flex;
+  justify-content: center;
+}
+.temp {
+  font-size: 20px;
+}
+.text {
+  font-size: 20px;
+}

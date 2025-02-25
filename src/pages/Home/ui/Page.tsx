@@ -8,8 +8,8 @@ function HomePage() {
       <Link to="/auth" className={styles.link}>
         Войти
       </Link>
-      <Link to="/news" className={styles.link}>
-        News
+      <Link to="/posts" className={styles.link}>
+        Posts
       </Link>
     </main>
   );

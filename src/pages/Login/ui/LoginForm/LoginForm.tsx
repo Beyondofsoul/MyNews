@@ -13,6 +13,7 @@ function LoginForm() {
   };
 
   const navigate = useNavigate();
+
   const { register, handleSubmit } = useForm<IForm>({
     defaultValues: {},
   });
@@ -22,7 +23,7 @@ function LoginForm() {
   };
   const submit: SubmitHandler<IForm> = (data) => {
     if (data.name === user.username && Number(data.password) === user.password) {
-      navigate('/news');
+      navigate('/posts');
       login();
     } else {
       console.log('Неправильное имя или пароль');

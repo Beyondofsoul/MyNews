@@ -6,7 +6,9 @@ function Header() {
     <header className={styles.header}>
       <Link to="/">Главная</Link>
       <Link to="/auth">Вход</Link>
-      <Link to="/news">Новости</Link>
+      <Link to="/posts">Посты</Link>
+      <Link to="/weather">Погода</Link>
+      <Link to="/currency">Курс валют</Link>
     </header>
   );
 }
