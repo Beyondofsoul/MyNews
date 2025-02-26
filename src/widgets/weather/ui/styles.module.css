@@ -4,6 +4,9 @@
 }
 .history {
   cursor: pointer;
+  border: 1px solid black;
+  justify-content: center;
+  display: flex;
 }
 .history:hover {
   color: brown;

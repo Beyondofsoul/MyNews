@@ -24,3 +24,6 @@ export interface Weather {
   current: IWeatherCurrent;
   condition: IWeatherCondition;
 }
+export interface CurrencyRates {
+  [currencyCode: string]: number;
+}

@@ -4,8 +4,8 @@ import { WeatherBlock } from '@/widgets/weather';
 
 function WeatherInfo() {
   const city = useAppSelector((state) => state.weather.city);
-  const { data, isLoading, error } = useGetWeatherQuery({ q: city });
+  const { data: weather, isLoading, error } = useGetWeatherQuery({ q: city });
 
-  return <>{isLoading ? <div>Загрузка</div> : <WeatherBlock weather={data} error={error} />}</>;
+  return <>{isLoading ? <div>Загрузка</div> : <WeatherBlock weather={weather} error={error} />}</>;
 }
 export default WeatherInfo;
