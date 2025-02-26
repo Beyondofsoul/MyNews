@@ -19,7 +19,7 @@ export const currencyApi = createApi({
     }),
     getCurrencyConvert: builder.query<CurrencyApiResponse, ParamsType>({
       query: (params) => {
-        const { from = 'USD', to = 'RUB', amount = '5' } = params;
+        const { from = 'USD', to = 'RUB', amount = 5 } = params;
         return {
           url: '/convert',
           params: {
